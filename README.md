@@ -15,3 +15,5 @@ allows each component to receive unified notifications
 ## make GLTF module : using Blender
 
 ![demo4](https://github.com/zzztzzzt/React-Three-Project/blob/main/demo-img/demo4.png)
+
+![demo5](https://github.com/zzztzzzt/React-Three-Project/blob/main/demo-img/demo5.png)
