@@ -1,0 +1,112 @@
+#logo {
+    background: -webkit-linear-gradient(left, #43e97b, #d4fc79);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: absolute;
+    width: 200px;
+    height: 150px;
+    top: 0;
+    left: 0;
+    text-align: center;
+    font-weight: 800;
+    font-size: 63px;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    cursor: pointer;
+}
+
+#eyes {
+    background: -webkit-linear-gradient(left, #93a5cf, #e4efe9);
+    position: absolute;
+    top: 20px;
+    right: 50px;
+    font-size: 63px;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    cursor: pointer;
+    transition: font-size 0.3s;
+}
+
+#about {
+    background-color: #fff;
+    background-color: transparent;
+    border: 9px solid;
+    border-color: #fff;
+    border-radius: 500px;
+    display: flex;
+    justify-content: flex-start;
+    align-items: flex-start;
+    position: absolute;
+    width: 500px;
+    height: 500px;
+    right: 0;
+    bottom: 0;
+    transform: translate(45%, 55%);
+    cursor: pointer;
+    transition: 2s;
+}
+#about p {
+    color: #fff;
+    position: absolute;
+    top: 5%;
+    left: 22%;
+    font-size: 72px;
+    font-weight: 700;
+}
+
+#icon-info-one, #icon-info-two, #icon-info-three, #icon-info-four {
+    background: -webkit-linear-gradient(left, #93a5cf, #e4efe9);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: absolute;
+    font-size: 100px;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    cursor: pointer;
+    transition: 3s;
+    z-index: -5;
+}
+#icon-info-one {
+    bottom: 0;
+    left: 10%;
+}
+#icon-info-one:hover {
+    font-size: 130px;
+}
+#icon-info-two {
+    bottom: 0;
+    left: 25%;
+}
+#icon-info-two:hover {
+    font-size: 130px;
+}
+#icon-info-three {
+    bottom: 0;
+    right: 25%;
+}
+#icon-info-three:hover {
+    font-size: 130px;
+}
+#icon-info-four {
+    bottom: 0;
+    right: 10%;
+}
+#icon-info-four:hover {
+    font-size: 130px;
+}
+
+@media (max-width: 600px) {}
+@media (min-width: 601px) and (max-width: 768px) {}
+@media (min-width: 769px) and (max-width: 900px) {}
+@media (min-width: 901px) and (max-width: 1024px) {
+    #eyes:hover {
+        font-size: 99px;
+    }
+}
+@media (min-width: 1025px) {
+    #eyes:hover {
+        font-size: 99px;
+    }
+}

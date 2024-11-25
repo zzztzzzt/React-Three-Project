@@ -1,0 +1,37 @@
+#color-div-one {
+    background-image: linear-gradient(to top right, rgba(186, 255, 25, 0.3), transparent);
+    color: #fff;
+    border: 3px solid;
+    border-color: #fff;
+    border-radius: 24px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: absolute;
+    width: 50%;
+    height: 30%;
+    bottom: 5%;
+    left: -5%;
+    text-align: center;
+    font-size: 50px;
+    transition: 3s;
+}
+
+#color-div-two {
+    background-image: linear-gradient(to bottom left, rgba(186, 255, 25, 0.1), transparent);
+    color: #baff19;
+    border: 3px solid;
+    border-color: #baff19;
+    border-radius: 24px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: absolute;
+    width: 35%;
+    height: 30%;
+    bottom: 40%;
+    left: -5%;
+    text-align: center;
+    font-size: 50px;
+    transition: 2s;
+}
